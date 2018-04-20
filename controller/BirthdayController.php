@@ -16,12 +16,12 @@ function kalender(){
 
 function delete($id){
 	deleteUser($id);
-	header("Location: /Kalender/birthday/kalender");
+	header("Location: /kalender-php/birthday/kalender");
 }
 
 function postEdit($id){
 	editUser($id);
-	header("Location: /Kalender/birthday/kalender");
+	header("Location: /kalender-php/birthday/kalender");
 }
 
 function edit($id){
@@ -36,5 +36,5 @@ function create(){
 
 function insert(){
 	insertUser();
-	header("Location: /Kalender/birthday/kalender");
+	header("Location: /kalender-php/birthday/kalender");
 }
